@@ -41,7 +41,7 @@ class Board extends React.Component {
 		if (winner) {
 			status = 'Winner: ' + winner;
 		} else {
-			const status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
+			status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
 		}
 
 		return (
@@ -82,6 +82,21 @@ class Game extends React.Component {
 		);
 	}
 }
+
+history = [npm install --global yarn
+	// Before first move
+	{
+		squares: [ null, null, null, null, null, null, null, null, null ]
+	},
+	// After first move
+	{
+		squares: [ null, null, null, null, 'X', null, null, null, null ]
+	},
+	// After second move
+	{
+		squares: [ null, null, null, null, 'X', null, null, null, 'O' ]
+	}
+];
 
 // ========================================
 
