@@ -1,2 +1,2 @@
 # React-To-do-list
-Creating a react To-do List App
+Creating a react Tick Tack Toe App
